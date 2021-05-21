@@ -12,7 +12,7 @@ spec:
         kind: GitRepository
         name: devops-toolkit
   interval: 30s
-  targetNamespace: staging
+  targetNamespace: devops-toolkit-staging
   values:
     image:
       tag: 2.9.9
