@@ -1,1 +1,1 @@
-# Helm Releases for production and staging
+# Helm Releases for staging
