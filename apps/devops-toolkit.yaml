@@ -1,3 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: staging.devops-toolkit
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+spec:
+  rules:
+  - host: staging.devops-toolkit.apps.okd.ag04.io
+    http:
+      paths:
+      - backend:
+          serviceName: staging.devops-toolkit
+          servicePort: http
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
