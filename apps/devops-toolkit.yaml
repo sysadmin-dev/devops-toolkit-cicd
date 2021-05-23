@@ -15,7 +15,7 @@ spec:
   targetNamespace: devops-toolkit-production
   values:
     image:
-      tag: 2.9.17
+      tag: 2.9.18
     ingress:
-      host: devops-toolkit.192.168.64.5.nip.io
+      host: staging.devops-toolkit.apps.okd.ag04.io
 
