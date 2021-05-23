@@ -30,7 +30,7 @@ spec:
   targetNamespace: devops-toolkit-staging
   values:
     image:
-      tag: 2.9.9
+      tag: 2.9.10
     ingress:
       host: staging.devops-toolkit.apps.okd.ag04.io
 
