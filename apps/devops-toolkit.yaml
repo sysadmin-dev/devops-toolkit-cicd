@@ -15,7 +15,7 @@ spec:
   targetNamespace: devops-toolkit-production
   values:
     image:
-      tag: 2.9.18
+      tag: 3.0.0
     ingress:
       host: staging.devops-toolkit.apps.okd.ag04.io
 
