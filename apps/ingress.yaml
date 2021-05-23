@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: reverse-words
+  name: staging.devops-toolkit
   annotations:
     kubernetes.io/ingress.class: nginx
     argocd.argoproj.io/compare-options: IgnoreExtraneous
@@ -11,5 +11,5 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: reverse-words
+          serviceName: devops-toolkit-staging-devops-toolkit-staging-devops-toolkit
           servicePort: http
